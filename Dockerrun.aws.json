@@ -27,7 +27,7 @@
             "name": "nginx",
             "image": "ronaldcast/multi-nginx",
             "hostname": "nginx",
-            "essential":false,
+            "essential":true,
             "portMapping":[
                 {
                     "hostPort": 80,
